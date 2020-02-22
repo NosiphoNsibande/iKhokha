@@ -259,3 +259,118 @@ img {
     opacity: .27;
 }
 
+.homepage_section{
+    background-color: #f7f7f7;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.all{
+    border-right: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+}
+
+.homepage_section .col_printer{
+    text-align: center;
+}
+
+.priceblock {
+    padding-top: 70px;
+    border: 1px #000;
+    color: #a1a1a1;
+    font-weight: 400;
+    text-align: left;
+}
+
+.readername {
+    color: #585858;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.striked {
+    text-decoration: line-through;
+}
+
+.newprice {
+    display: block;
+    color: #ec008c;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.buynow {
+    max-width: 120px;
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #000;
+    font-weight: 900;
+    background-color: #fc0;
+    text-align: center;
+    opacity: 1;
+}
+
+.buynow:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+.product_icons span{
+    font-size: 20px;
+    color: #d8d8d8;
+}
+
+.tap_icon {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.viewmorereader {
+    position: relative;
+    width: auto;
+    max-width: none;
+    margin: 0 auto 20px;
+    padding: 0 0 0 10px;
+    border: 1px #000;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fc0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.viewmorereader:hover {
+    color: #30bec1;
+    text-decoration: none;
+}
+
+.overlapping_logo {
+    left: 15%;
+    top: 20%;
+    right: auto;
+    position: absolute;
+    bottom: auto;
+}
+
+.keeptextincheck{
+    max-width: 500px;
+    position: relative;
+    float: left;
+}
+
+.h2{
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-bottom: 27px;
+    background-image: url("../assets/ikhokha.sep.png");
+    background-position: 0 100%;
+    background-size: 125px;
+    color: #363133;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
