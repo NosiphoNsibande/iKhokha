@@ -5,6 +5,27 @@
 body{
     font-family: Roboto,sans-serif;
     background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+a:focus, a:hover {
+    color: #30bec1;
+    text-decoration: none;
+}
+
+.p {
+    max-width: none;
+    color: #363133;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.a {
+    display: inline-block;
+    margin-top: 0;
+    color: #dd0470;
 }
 
 img {
@@ -12,6 +33,13 @@ img {
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
+}
+
+p {
+    max-width: none;
+    color: #363133;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .btn{
@@ -355,10 +383,23 @@ img {
     bottom: auto;
 }
 
+.request_callback{
+    align-items: center;
+    display: flex;
+    padding-left: 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    border-radius: 3px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 .keeptextincheck{
     max-width: 500px;
-    position: relative;
-    float: left;
 }
 
 .h2{
@@ -368,9 +409,154 @@ img {
     background-image: url("../assets/ikhokha.sep.png");
     background-position: 0 100%;
     background-size: 125px;
+    background-repeat: no-repeat;
+    font-family: Roboto,sans-serif;
     color: #363133;
     font-size: 26px;
     line-height: 32px;
     font-weight: 500;
 }
+
+.call_and_request {
+   margin-top: 40px;
+}
+
+.list-2, .list-3 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.callbackrequestbtn {
+    position: static;
+    margin-top: 0;
+    padding: 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #fc0;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.callbackrequestbtn:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #30bec1;
+}
+
+.callbackrequestbtn.getpdfbtn:hover {
+    color: #30bec1;
+}
+
+.stefcheck {
+    padding-right: 40px;
+}
+
+.callbackrequestbtn.getpdfbtn {
+    margin-top: auto;
+    clear: none;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dfdfdf;
+    background-color: #fff;
+    box-shadow: none;
+    color: #555;
+    font-size: 13px;
+}
+
+.btn.invertbtn {
+    margin-top: 20px;
+    border: 1px solid #000;
+    background-color: transparent;
+    color: #000;
+    font-weight: 400;
+}
+
+.btn.invertbtn:hover {
+    border-style: solid;
+    border-color: #30bec1;
+    background-color: #fff;
+    color: #30bec1;
+}
+
+.app_screenshot {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.freeAwardSection{
+    border-top: 1px solid #cacaca;
+}
+
+.freeAwardSection .freeAwardImage{
+    text-align: center;
+}
+
+.text-block-50 {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.div-block-83 {
+    margin-top: 20px;
+}
+
+.list-4 {
+    font-size: 13px;
+}
+
+.bold-text-10, .bold-text-7, .bold-text-8, .bold-text-9, .list-item-3 {
+    font-weight: 400;
+}
+
+.list-4, .list-5 {
+    padding-left: 20px;
+}
+
+.list-item-3, .list-item-4, .list-item-5, .list-item-6 {
+    padding-top: 10px;
+}
+
+.list-item {
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.bold-text-10, .list-item-5 {
+    font-size: 16px;
+}
+
+.list-item-3 {
+    font-size: 16px;
+}
+
+.list-item-2 {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.bold-text-5, .bold-text-6 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.list-item-4 {
+    font-size: 16px;
+}
+
+.italic {
+    color: #adadad;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.app_icons {
+    margin-top: 10px;
+    color: #d8d8d8;
+    font-size: 32px;
+    text-align: left;
+}
+
+
 
