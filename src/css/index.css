@@ -10,7 +10,7 @@ body{
     line-height: 20px;
 }
 
-a:focus, a:hover {
+a:focus, a:hover, .faq_section .getpdfbtn:hover {
     color: #30bec1;
     text-decoration: none;
 }
@@ -438,7 +438,7 @@ p {
     text-align: center;
 }
 
-.callbackrequestbtn:hover {
+.callbackrequestbtn:hover, .faq_section .callbackfaq:hover {
     color: #fff;
     text-decoration: none;
     background-color: #30bec1;
@@ -556,6 +556,145 @@ p {
     color: #d8d8d8;
     font-size: 32px;
     text-align: left;
+}
+
+.testimonialsection {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #f1f1f1;
+    color: #fc0;
+    text-align: center;
+}
+
+.heading-77.reviewsstitle {
+    margin-bottom: 20px;
+    padding-left: 0;
+    background-image: none;
+    color: #2e2e2e;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.testimonialstext.featuredtestimonial {
+    padding-top: 30px;
+    text-align: left;
+}
+
+.testimonialstext {
+    margin-bottom: 5px;
+    color: #363636;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.column-143 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.farmgate{
+    margin-top: 20px;
+}
+
+.testimonialstext.testimonialauthor.farmgate {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.review_row{
+  margin-top: 40px;  
+}
+
+.review_row .user_review{
+    font-size: 24px;
+    color: #dd0470;
+    margin-bottom: 10px;
+}
+
+.testimonialstext {
+    margin-bottom: 5px;
+    color: #363636;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.testimonialstext.testimonialauthor {
+    margin-bottom: 20px;
+    color: #000;
+    font-style: italic;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.review_row .starrating{
+    margin-top: 10px;
+}
+
+.review_row img{
+    height: 30px;
+}
+
+.before_footer_button_row {
+    border-top: 1px solid #dadada;
+    background-color: #fff;
+}
+
+.faq_section .hellow_peter{
+  margin-bottom: 40px;
+}
+
+.hplink {
+    margin-bottom: 40px;
+}
+
+.faqcontainer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.faq_section .faqbtn {
+    background-color: #ec008c;
+}
+
+
+.faq_section .callbackfaq{
+    background-color: #fc0;
+}
+
+.faq_section .getpdfbtn {
+    margin-top: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dfdfdf;
+    background-color: #fff;
+    box-shadow: none;
+    color: #555;
+    font-size: 13px;
+}
+
+.faq_section .callbackfaq, .faq_section .faqbtn{
+    color: #fff;
+}
+
+.faq_section .callbackfaq, .faq_section .faqbtn , .faq_section .getpdfbtn{
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    padding-right: 0;
+    float: none;
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-block-51 {
+    margin-top: 40px;
+    padding-top: 0;
+    float: none;
 }
 
 
