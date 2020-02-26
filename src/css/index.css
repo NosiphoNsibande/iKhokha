@@ -103,7 +103,6 @@ p {
     background-position: center;
 }
 
-/* start of rename */
 
 .w-container {
     margin-left: auto;
@@ -140,7 +139,19 @@ p {
     flex-direction: column;
 }
 
-/* end of rename */
+.first_product_section_row, .all .row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.header_section.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.all.col_printer .row{
+    margin-bottom: 25px;
+}
 
 .header_section .link_logo {
     display: inline-block;
@@ -727,10 +738,6 @@ p {
     color: #727272;
 }
 
-.pre-footer .taglinecontentwrapper .taglinecontent{
-  /* position: relative; */
-}
-
 .h2.footer-h3.prefooterh3, .h2.values {
     padding-bottom: 0;
     background-image: none;
@@ -774,6 +781,147 @@ p {
 .pre-footer .prefootercallback, .pre-footer .chooseMachine{
     color: #fff;
 }
+
+/* ---Responsive--- */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .header_section {
+        height: 400px;
+        background-repeat: no-repeat;
+    }
+
+    .container_for_hero {
+        -ms-flex-direction: row;
+         flex-direction: row; 
+        -webkit-box-align: baseline; 
+        -webkit-align-items: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+    }
+
+    .container_machines{
+       margin-left: 20px;
+    }
+    
+    .all.col_printer, .second_product_section .col-sm-6{
+        padding-right: 0px;
+        padding-left: 0px; 
+    }
+
+    .prod_content {
+        padding-right: 0px;
+        padding-left: 0px; 
+    }
+
+    .all.col_printer p{
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .overlapping_logo {
+        left: 5%;
+        top: 10%;
+    }
+
+    .second_product_section{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .second_product_section .h2{
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+
+    .second_product_section .call_and_request {
+        margin-top: 20px;
+    }
+
+    .second_product_section .callbackrequestbtn{
+        padding: 12px;
+        font-size: 10px;
+    }
+
+    #mainContent .request_callback{
+        margin-bottom: 20px;
+    }
+
+    .freeAwardSection .h2{
+      margin-bottom: 15px;
+      padding-bottom: 27px;
+      color: #363133;
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    .freeAwardSection .col-md-6, .testimonialsection .col-md-6{
+       padding-right: 0px;
+       padding-left: 0px;
+    }
+
+    .faq_section .callbackfaq, .faq_section .faqbtn, .faq_section .getpdfbtn {
+        padding: 15px;
+        font-size: 10px;
+    }
+      
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  
+    .top_bar{
+        display: none;
+    }
+
+    .container_machines{
+      width: 100%;
+      margin: 20px;
+    }
+
+    .homepage_section .col_printer{
+        text-align: left;
+    }
+
+    .request_callback.row{
+        display: block;
+    }
+
+    .header_section .link_logo {
+        margin-bottom: 20px;
+    }
+
+    .visa_logo {
+        margin-top: 0px;
+    }
+
+    .header_section, .container_for_hero{
+        height: fit-content;
+    }
+    #mainContent{
+      margin-top: 40px;
+    }
+
+    .overlapping_logo {
+        left: 10%;
+        top: 20%;
+    }
+
+    .stefcheck {
+        padding-right: 0px;
+        margin-top: 80px;
+    }
+
+    .callbackrequestbtn{
+        position: absolute;
+    }
+
+    .callbackrequestbtn.getpdfbtn{
+        margin-top: 40px;
+    }
+     
+ }
 
 
 
