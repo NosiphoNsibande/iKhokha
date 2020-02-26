@@ -1,5 +1,5 @@
 # iKhokha products landing page
-Recreate the recreate the iKhokha products landing page
+Recreate the iKhokha products landing page
 
 ## Things to take note:
 The assessment was created using HTML, CSS and Bootsrap.
