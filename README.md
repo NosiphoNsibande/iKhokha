@@ -3,7 +3,7 @@ Recreate the iKhokha products landing page
 
 ## Things to take note:
 
-The assessment was created using HTML, CSS and Bootsrap.
+The assessment was created using HTML, CSS and Bootstrap.
 
 Font awesome was used for the icons 
 
